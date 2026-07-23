@@ -1,8 +1,26 @@
 aid: arcturus
 name: Arcturus
-description: 'Arcturus is a company surfaced as a portfolio company of initialized-capital and added to
-  the API Evangelist network as a stub for enrichment. Sector: frontier-tech. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Arcturus (Arcturus Technologies) is a Los Angeles advanced-materials company founded by
+  Amir Mashal that infuses carbon nanomaterials into metals to create a new class of conductors, using
+  lasers to embed carbon into copper and dramatically improve its electrical, thermal, and mechanical
+  performance. Positioned in frontier climate/energy tech, its drop-in materials target motor windings,
+  bus bars, heat sinks, data-center infrastructure, electric motors, drones, robotics, and — over time —
+  transmission lines and grid infrastructure. The company emerged from stealth in June 2026 with an $8M
+  seed round led by Initialized Capital, with 1517, Breakthrough Energy Discovery, Toyota Ventures, and
+  Wireframe Ventures participating. This is a deep-tech hardware/materials company with no public API or
+  developer program; the profile is maintained as an API Evangelist network company record.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/69f99c9546e5f137d0578b7e/6a407d38f367a9d7830472e7_Thumnail_v6_1x_size_compressed.jpg
 url: https://raw.githubusercontent.com/api-evangelist/arcturus/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Frontier Tech
+- Advanced Materials
+- Carbon Nanomaterials
+- Energy
+- Climate Tech
+- Hardware
+- Deep Tech
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +47,14 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/arcturus-domain-security.yml
 - type: Website
   url: https://arcturus.io/
+- type: Careers
+  url: https://jobs.ashbyhq.com/arcturus
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
