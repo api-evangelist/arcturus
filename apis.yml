@@ -9,6 +9,17 @@ description: 'Arcturus (Arcturus Technologies) is a Los Angeles advanced-materia
   seed round led by Initialized Capital, with 1517, Breakthrough Energy Discovery, Toyota Ventures, and
   Wireframe Ventures participating. This is a deep-tech hardware/materials company with no public API or
   developer program; the profile is maintained as an API Evangelist network company record.'
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
