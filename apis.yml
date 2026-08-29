@@ -33,6 +33,9 @@ accessModel:
   method: derived
 image: https://cdn.prod.website-files.com/69f99c9546e5f137d0578b7e/6a407d38f367a9d7830472e7_Thumnail_v6_1x_size_compressed.jpg
 url: https://raw.githubusercontent.com/api-evangelist/arcturus/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "This is a deep-tech hardware/materials company with no public API or developer program; the profile is maintained as an API Evangelist network company record."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
